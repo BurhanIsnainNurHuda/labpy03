@@ -115,3 +115,28 @@ Program di atas akan mencetak bilangan random antara 0 dan 1.
 
 # Latihan 3: latihan3.py
 
+# Alur Algoritma 
+![IMG_20241104_170521](https://github.com/user-attachments/assets/79ded3ca-014b-43ef-bd73-e75f6a3918e2)
+
+    Penjelasan:
+    1. Inisialisasi Variabel `saldo`: Program memulai dengan menetapkan saldo awal pengguna sebesar 1.000.000.
+
+    2. Perulangan Menu: Program memasuki perulangan `while True` yang akan terus berulang hingga pengguna memilih untuk keluar.
+
+    •Di dalam perulangan, program menampilkan menu:
+      •Saldo saat ini
+      •Pilihan 1: Tarik Uang
+      •Pilihan 2: Keluar
+    •Program meminta input dari pengguna dengan `input("Pilih menu (1/2): ")`.
+
+    3. Penanganan Pilihan:
+
+    •Pilihan 1 (Tarik Uang):
+      •Program meminta input jumlah penarikan dengan `int(input("Masukkan jumlah penarikan: "))`.
+      •Jika jumlah penarikan tidak melebihi saldo, saldo dikurangi dengan jumlah penarikan dan program menampilkan pesan "Penarikan berhasil!".
+    •Jika jumlah penarikan melebihi saldo, program menampilkan pesan "Saldo tidak mencukupi!".
+    •Pilihan 2 (Keluar):
+      •Program menampilkan pesan "Terima kasih telah menggunakan ATM!" dan menghentikan perulangan dengan `break`.
+    •Pilihan Tidak Valid:
+      •Jika pengguna memasukkan pilihan selain 1 atau 2, program menampilkan pesan "Pilihan tidak valid!".
+    4.Perulangan: Program kembali ke langkah 2, menampilkan menu dan meminta pilihan pengguna. Perulangan akan terus berjalan hingga pengguna memilih untuk keluar.
