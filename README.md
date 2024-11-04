@@ -140,3 +140,25 @@ Program di atas akan mencetak bilangan random antara 0 dan 1.
     •Pilihan Tidak Valid:
       •Jika pengguna memasukkan pilihan selain 1 atau 2, program menampilkan pesan "Pilihan tidak valid!".
     4.Perulangan: Program kembali ke langkah 2, menampilkan menu dan meminta pilihan pengguna. Perulangan akan terus berjalan hingga pengguna memilih untuk keluar.
+
+# Hasil Input & Output 
+![IMG_20241104_171839](https://github.com/user-attachments/assets/9052a8dc-1d3c-42b1-8910-983a348b4863)
+
+•Penjelasan:
+
+1. Inisialisasi Saldo: Kode ini memulai dengan `saldo = 1000000`, yang menetapkan saldo awal pengguna menjadi Rp 1.000.000.
+2. Looping: Kode menggunakan `while True` untuk menjalankan loop yang terus berulang sampai pengguna memilih untuk keluar.
+3. Menampilkan Menu: Di dalam loop, kode menampilkan menu pilihan:
+    •"Saldo saat ini: [saldo]" menampilkan saldo terkini.
+    •"1. Tarik Uang" memberi opsi untuk menarik uang.
+    •"2. Keluar" memberi opsi untuk mengakhiri program.
+4. Meminta Input: Kode meminta pengguna untuk memasukkan pilihan mereka dengan `pilihan = input("Pilih menu (1/2): ")`.
+5. Menangani Pilihan: Kode memeriksa pilihan yang dimasukkan pengguna:
+    •Jika `pilihan == '1'`:
+      •Kode meminta pengguna memasukkan jumlah penarikan dengan `penarikan = int(input("Masukkan jumlah penarikan: "))`.
+      •Jika jumlah penarikan melebihi saldo, kode mencetak pesan "Saldo tidak cukup!".
+      •Jika tidak, kode mengurangi saldo dengan jumlah penarikan (`saldo -= penarikan`) dan mencetak pesan "Penarikan berhasil!".
+    •Jika `pilihan == '2'`:
+      •Kode mencetak pesan "Terima kasih telah menggunakan ATM!" dan keluar dari loop dengan `break`.
+    •Jika pilihan tidak valid:
+      •Kode mencetak pesan "Pilihan tidak valid!".
