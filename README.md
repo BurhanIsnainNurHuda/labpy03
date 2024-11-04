@@ -162,3 +162,11 @@ Program di atas akan mencetak bilangan random antara 0 dan 1.
       •Kode mencetak pesan "Terima kasih telah menggunakan ATM!" dan keluar dari loop dengan `break`.
     •Jika pilihan tidak valid:
       •Kode mencetak pesan "Pilihan tidak valid!".
+
+# Alur program:
+
+1. Program menampilkan saldo awal dan pilihan menu (Tarik Uang/Keluar).
+2. Pengguna memilih opsi 1 (Tarik Uang) dan memasukkan jumlah penarikan.
+3. Program melakukan pengecekan apakah saldo mencukupi untuk penarikan.
+4. Jika saldo mencukupi, program melakukan penarikan dan menampilkan saldo baru.
+5. Pengguna memilih opsi 2 (Keluar) dan program menampilkan pesan keluar.
