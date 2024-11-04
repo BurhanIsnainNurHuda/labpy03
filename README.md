@@ -21,12 +21,12 @@
 
 Cara Menjalankan atau Nge Run Program:
 
-    •Simpan kode di file Python (misalnya, latihan1.py).
+    •Simpan kode di file Python (misalnya, `latihan1.py`).
     •Buka terminal atau command prompt.
-    •Jalankan program dengan perintah python latihan1.py.
-    •Program akan meminta Anda untuk memasukkan nilai n.
-    •Masukkan nilai n dan tekan enter.
-    •Program akan menampilkan n bilangan acak yang lebih kecil dari 0.5, disertai dengan pesan "Selesai".    
+    •Jalankan program dengan perintah `python latihan1.py`.
+    •Program akan meminta Anda untuk memasukkan nilai `n`.
+    •Masukkan nilai `n` dan tekan enter.
+    •Program akan menampilkan `n` bilangan acak yang lebih kecil dari 0.5, disertai dengan pesan "Selesai".    
 
 # Input
 ![IMG_20241104_143058](https://github.com/user-attachments/assets/5fcda2e7-f710-43ac-8b91-3fa766a0d6aa)
