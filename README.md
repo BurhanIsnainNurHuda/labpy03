@@ -13,4 +13,4 @@
 •Penjelasan
 
     N: program meminta input berupa bilangan bulat untuk menentukan
-    berapa banyak bilangan random yang akan dihasilkan.
+       berapa banyak bilangan random yang akan dihasilkan.
