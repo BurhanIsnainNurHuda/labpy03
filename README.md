@@ -53,8 +53,8 @@ Cara Menjalankan atau Nge Run Program:
 
 Fungsi random()
 
-    Fungsi `random()` di Python digunakan untuk menghasilkan bilangan random antara 0 dan 1.
-    Fungsi `random()` termasuk di modul `random` dan perlu diimport sebelum digunakan.
+    •Fungsi `random()` di Python digunakan untuk menghasilkan bilangan random antara 0 dan 1.
+    •Fungsi `random()` termasuk di modul `random` dan perlu diimport sebelum digunakan.
 
 Contoh:     
 ![IMG_20241104_144321](https://github.com/user-attachments/assets/7f5a70ec-9c3a-470f-afa5-b2985af2a084)
@@ -89,7 +89,21 @@ Program di atas akan mencetak bilangan random antara 0 dan 1.
     •Bulan ke-8: Keuntungan dihitung dengan `keuntungan * 0.98` (menurun 2% dari keuntungan bulan ke-7).
 
     4.Penambahan Total Keuntungan:
-    Setiap akhir bulan, program menambahkan `keuntungan` ke variabel `laba` untuk menghitung total kePenjelasan:
+    •Setiap akhir bulan, program menambahkan `keuntungan` ke variabel `laba` untuk menghitung total kePenjelasan:
 
     5.Cetak Total Keuntungan:
-    Setelah 8 bulan, program mencetak total keuntungan yang tersimpan dalam variabel `laba`.
+    •Setelah 8 bulan, program mencetak total keuntungan yang tersimpan dalam variabel `laba`.
+# Hasil Input & Output 
+
+![IMG_20241104_164807](https://github.com/user-attachments/assets/9028ab4e-c0b6-4276-9b7c-30ba3f4af454)
+
+•Penjelasan
+
+    1. Bulan 1 dan 2: Pengusaha belum mendapatkan laba, jadi laba pada bulan 1 dan 2 adalah 0.
+    2. Bulan 3: Pengusaha mulai mendapatkan laba sebesar 1% dari modal awal 100 juta, yang berarti laba bulan 3 adalah 100.000.000 x 0.01 = 1.000.000.
+    3. Bulan 4: Laba bulan 4 sama dengan laba bulan 3, yaitu 1.000.000.
+    4. Bulan 5: Pendapatan meningkat 5% dari laba bulan 4, sehingga laba bulan 5 adalah 1.000.000 x 1.05 = 5.000.000.
+    5. Bulan 6, 7: Karena tidak ada perubahan pada bulan 6 dan 7, laba bulan 6 dan 7 sama dengan laba bulan 5, yaitu 5.000.000.
+    6. Bulan 8: Keuntungan mengalami penurunan sebesar 2% dari laba bulan 7, sehingga laba bulan 8 adalah 5.000.000 x 0.98 = 4.900.000.
+    7.Total laba: Untuk menghitung total laba selama 8 bulan, kita menjumlahkan semua laba bulan: 0 + 0 + 1.000.000 + 1.000.000 + 5.000.000 + 5.000.000 + 5.000.000 + 4.900.000 = 19.000.000
+    Jadi, total keuntungan selama 8 bulan berjalan usahanya adalah 19.000.000.
