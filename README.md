@@ -11,7 +11,7 @@
 
 ![IMG_20241104_150140](https://github.com/user-attachments/assets/de1f6e5a-cc33-4070-ba69-3dfcd630e565)
 
-    Penjelasan:
+   Penjelasan:
     •Import Modul `random`: Kode ini mengimpor modul `random` dari Python, yang menyediakan fungsi untuk menghasilkan bilangan acak.
     •Input Nilai `n`: Kode ini meminta pengguna untuk memasukkan nilai `n`, yang menentukan berapa banyak bilangan acak yang ingin dihasilkan.
     •Loop `for`: Kode ini menggunakan loop `for` untuk mengulang `n` kali.
@@ -21,7 +21,7 @@
 
 Cara Menjalankan atau Nge Run Program:
 
-    •Simpan kode di file Python (misalnya, `latihan1.py`).
+   •Simpan kode di file Python (misalnya, `latihan1.py`).
     •Buka terminal atau command prompt.
     •Jalankan program dengan perintah `python latihan1.py`.
     •Program akan meminta Anda untuk memasukkan nilai `n`.
@@ -45,7 +45,7 @@ Cara Menjalankan atau Nge Run Program:
 
 • Penjelasan Keseluruhan dari Input dan Output
 
-    •Program meminta input dari user untuk menentukan berapa banyak bilangan random yang akan dihasilkan.
+   •Program meminta input dari user untuk menentukan berapa banyak bilangan random yang akan dihasilkan.
     •Program kemudian menggunakan fungsi `random()` untuk menghasilkan bilangan random.
     •Program kemudian mencetak bilangan random yang dihasilkan ke layar dengan keterangan "data ke: i",
      dimana i adalah urutan bilangan random yang dihasilkan.
@@ -53,7 +53,7 @@ Cara Menjalankan atau Nge Run Program:
 
 Fungsi random()
 
-    •Fungsi `random()` di Python digunakan untuk menghasilkan bilangan random antara 0 dan 1.
+   •Fungsi `random()` di Python digunakan untuk menghasilkan bilangan random antara 0 dan 1.
     •Fungsi `random()` termasuk di modul `random` dan perlu diimport sebelum digunakan.
 
 Contoh:     
@@ -70,20 +70,21 @@ Program di atas akan mencetak bilangan random antara 0 dan 1.
 ![IMG_20241104_162720](https://github.com/user-attachments/assets/79064f29-b575-49d5-8f01-4e03737993a4)
 
     Penjelasan:
+    
     1.Inisialisasi Variabel:
 
-    •Program menginisialisasi variabel `laba` dengan nilai `0` untuk melacak total keuntungan.
+   •Program menginisialisasi variabel `laba` dengan nilai `0` untuk melacak total keuntungan.
     •Program menginisialisasi variabel `keuntungan` dengan nilai `0` untuk melacak keuntungan per bulan.
     •Program menginisialisasi variabel `modal` dengan nilai `100000000` (100 juta) untuk melacak modal awal.
 
     2.Perulangan (Loop) untuk 8 Bulan:
 
-    •Program menggunakan perulangan `for` untuk mengulangi proses perhitungan selama 8 bulan.
+   •Program menggunakan perulangan `for` untuk mengulangi proses perhitungan selama 8 bulan.
     •Dalam setiap iterasi perulangan, program menjalankan langkah-langkah berikut:
 
     3.Perhitungan Keuntungan per Bulan:
 
-    •Bulan ke-1 dan ke-2: Keuntungan tetap `0` karena belum mendapatkan laba.
+   •Bulan ke-1 dan ke-2: Keuntungan tetap `0` karena belum mendapatkan laba.
     •Bulan ke-3: Keuntungan dihitung dengan `modal * 0.01` (1% dari modal)
     •Bulan ke-4: Keuntungan sama dengan keuntungan bulan ke-3.
     •Bulan ke-5: Keuntungan dihitung dengan `keuntungan * 1.05` (meningkat 5% dari keuntungan bulan ke-4).
@@ -91,17 +92,17 @@ Program di atas akan mencetak bilangan random antara 0 dan 1.
     •Bulan ke-8: Keuntungan dihitung dengan `keuntungan * 0.98` (menurun 2% dari keuntungan bulan ke-7).
 
     4.Penambahan Total Keuntungan:
-    •Setiap akhir bulan, program menambahkan `keuntungan` ke variabel `laba` untuk menghitung total kePenjelasan:
+   •Setiap akhir bulan, program menambahkan `keuntungan` ke variabel `laba` untuk menghitung total kePenjelasan:
 
     5.Cetak Total Keuntungan:
-    •Setelah 8 bulan, program mencetak total keuntungan yang tersimpan dalam variabel `laba`.
+   •Setelah 8 bulan, program mencetak total keuntungan yang tersimpan dalam variabel `laba`.
 # Hasil Input & Output 
 
 ![IMG_20241104_164807](https://github.com/user-attachments/assets/9028ab4e-c0b6-4276-9b7c-30ba3f4af454)
 
 •Penjelasan
 
-    1. Bulan 1 dan 2: Pengusaha belum mendapatkan laba, jadi laba pada bulan 1 dan 2 adalah 0.
+   1. Bulan 1 dan 2: Pengusaha belum mendapatkan laba, jadi laba pada bulan 1 dan 2 adalah 0.
     2. Bulan 3: Pengusaha mulai mendapatkan laba sebesar 1% dari modal awal 100 juta, yang berarti laba bulan 3 adalah 100.000.000 x 0.01 = 1.000.000.
     3. Bulan 4: Laba bulan 4 sama dengan laba bulan 3, yaitu 1.000.000.
     4. Bulan 5: Pendapatan meningkat 5% dari laba bulan 4, sehingga laba bulan 5 adalah 1.000.000 x 1.05 = 5.000.000.
@@ -119,19 +120,19 @@ Program di atas akan mencetak bilangan random antara 0 dan 1.
 ![IMG_20241104_170521](https://github.com/user-attachments/assets/79ded3ca-014b-43ef-bd73-e75f6a3918e2)
 
     Penjelasan:
-    1. Inisialisasi Variabel `saldo`: Program memulai dengan menetapkan saldo awal pengguna sebesar 1.000.000.
+   1. Inisialisasi Variabel `saldo`: Program memulai dengan menetapkan saldo awal pengguna sebesar 1.000.000.
 
-    2. Perulangan Menu: Program memasuki perulangan `while True` yang akan terus berulang hingga pengguna memilih untuk keluar.
+   2. Perulangan Menu: Program memasuki perulangan `while True` yang akan terus berulang hingga pengguna memilih untuk keluar.
 
-    •Di dalam perulangan, program menampilkan menu:
+   •Di dalam perulangan, program menampilkan menu:
       •Saldo saat ini
       •Pilihan 1: Tarik Uang
       •Pilihan 2: Keluar
     •Program meminta input dari pengguna dengan `input("Pilih menu (1/2): ")`.
 
-    3. Penanganan Pilihan:
+   3. Penanganan Pilihan:
 
-    •Pilihan 1 (Tarik Uang):
+   •Pilihan 1 (Tarik Uang):
       •Program meminta input jumlah penarikan dengan `int(input("Masukkan jumlah penarikan: "))`.
       •Jika jumlah penarikan tidak melebihi saldo, saldo dikurangi dengan jumlah penarikan dan program menampilkan pesan "Penarikan berhasil!".
     •Jika jumlah penarikan melebihi saldo, program menampilkan pesan "Saldo tidak mencukupi!".
