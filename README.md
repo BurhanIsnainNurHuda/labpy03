@@ -60,3 +60,36 @@ Contoh:
 ![IMG_20241104_144321](https://github.com/user-attachments/assets/7f5a70ec-9c3a-470f-afa5-b2985af2a084)
 
 Program di atas akan mencetak bilangan random antara 0 dan 1.
+
+
+# Latihan 2: latihan2.py
+
+# Alur Algoritma 
+![IMG_20241104_162720](https://github.com/user-attachments/assets/79064f29-b575-49d5-8f01-4e03737993a4)
+
+    Penjelasan:
+    1.Inisialisasi Variabel:
+
+    •Program menginisialisasi variabel `laba` dengan nilai `0` untuk melacak total keuntungan.
+    •Program menginisialisasi variabel `keuntungan` dengan nilai `0` untuk melacak keuntungan per bulan.
+    •Program menginisialisasi variabel `modal` dengan nilai `100000000` (100 juta) untuk melacak modal awal.
+
+    2.Perulangan (Loop) untuk 8 Bulan:
+
+    •Program menggunakan perulangan `for` untuk mengulangi proses perhitungan selama 8 bulan.
+    •Dalam setiap iterasi perulangan, program menjalankan langkah-langkah berikut:
+
+    3.Perhitungan Keuntungan per Bulan:
+
+    •Bulan ke-1 dan ke-2: Keuntungan tetap `0` karena belum mendapatkan laba.
+    •Bulan ke-3: Keuntungan dihitung dengan `modal * 0.01` (1% dari modal)
+    •Bulan ke-4: Keuntungan sama dengan keuntungan bulan ke-3.
+    •Bulan ke-5: Keuntungan dihitung dengan `keuntungan * 1.05` (meningkat 5% dari keuntungan bulan ke-4).
+    •Bulan ke-6, ke-7: Keuntungan sama dengan keuntungan bulan ke-5.
+    •Bulan ke-8: Keuntungan dihitung dengan `keuntungan * 0.98` (menurun 2% dari keuntungan bulan ke-7).
+
+    4.Penambahan Total Keuntungan:
+    Setiap akhir bulan, program menambahkan `keuntungan` ke variabel `laba` untuk menghitung total kePenjelasan:
+
+    5.Cetak Total Keuntungan:
+    Setelah 8 bulan, program mencetak total keuntungan yang tersimpan dalam variabel `laba`.
