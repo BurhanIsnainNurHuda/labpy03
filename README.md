@@ -21,3 +21,10 @@
 •Penjelasan
 
     data ke: i => nilai: Program kemudian mengeluarkan output berupa daftar bilangan random dengan jumlah N yang ditentukan. Setiap output bilangan random ditampilkan dengan keterangan "data ke: i", dimana i adalah urutan bilangan random yang dihasilkan. Nilai yang dihasilkan adalah bilangan decimal.
+
+Fungsi random()
+
+    Fungsi random() di Python digunakan untuk menghasilkan bilangan random antara 0 dan 1.
+    Fungsi random() termasuk di modul random dan perlu diimport sebelum digunakan.
+
+Contoh:     
