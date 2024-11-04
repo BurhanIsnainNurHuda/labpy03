@@ -24,8 +24,8 @@
 
 Fungsi random()
 
-    Fungsi random() di Python digunakan untuk menghasilkan bilangan random antara 0 dan 1.
-    Fungsi random() termasuk di modul random dan perlu diimport sebelum digunakan.
+    Fungsi `random()` di Python digunakan untuk menghasilkan bilangan random antara 0 dan 1.
+    Fungsi `random()` termasuk di modul `random` dan perlu diimport sebelum digunakan.
 
 Contoh:     
 ![IMG_20241104_144321](https://github.com/user-attachments/assets/7f5a70ec-9c3a-470f-afa5-b2985af2a084)
