@@ -62,6 +62,8 @@ Contoh:
 Program di atas akan mencetak bilangan random antara 0 dan 1.
 
 
+.
+
 # Latihan 2: latihan2.py
 
 # Alur Algoritma 
@@ -107,3 +109,9 @@ Program di atas akan mencetak bilangan random antara 0 dan 1.
     6. Bulan 8: Keuntungan mengalami penurunan sebesar 2% dari laba bulan 7, sehingga laba bulan 8 adalah 5.000.000 x 0.98 = 4.900.000.
     7.Total laba: Untuk menghitung total laba selama 8 bulan, kita menjumlahkan semua laba bulan: 0 + 0 + 1.000.000 + 1.000.000 + 5.000.000 + 5.000.000 + 5.000.000 + 4.900.000 = 19.000.000
     Jadi, total keuntungan selama 8 bulan berjalan usahanya adalah 19.000.000.
+
+
+.
+
+# Latihan 3: latihan3.py
+
