@@ -11,19 +11,13 @@
 
 ![IMG_20241104_150140](https://github.com/user-attachments/assets/de1f6e5a-cc33-4070-ba69-3dfcd630e565)
 
-Penjelasan:
-
-Import Modul random: Kode ini mengimpor modul random dari Python, yang menyediakan fungsi untuk menghasilkan bilangan acak.
-
-Input Nilai n: Kode ini meminta pengguna untuk memasukkan nilai n, yang menentukan berapa banyak bilangan acak yang ingin dihasilkan.
-
-Loop for: Kode ini menggunakan loop for untuk mengulang n kali.
-
-Generate Bilangan Acak: Dalam setiap iterasi loop, kode ini memanggil fungsi random() dari modul random untuk menghasilkan bilangan acak antara 0 dan 1. Kemudian, kode ini mengalikan bilangan acak dengan 0.5 untuk memastikan bilangan acak berada di antara 0 dan 0.5.
-
-Cetak Hasil: Kode ini mencetak hasil bilangan acak yang dihasilkan ke layar, disertai dengan nomor urutnya.
-
-Cetak Pesan "Selesai": Setelah loop for selesai, kode ini mencetak pesan "Selesai" untuk mengindikasikan bahwa program telah selesai mengeksekusi.
+    Penjelasan:
+    •Import Modul `random`: Kode ini mengimpor modul `random` dari Python, yang menyediakan fungsi untuk menghasilkan bilangan acak.
+    •Input Nilai `n`: Kode ini meminta pengguna untuk memasukkan nilai `n`, yang menentukan berapa banyak bilangan acak yang ingin dihasilkan.
+    •Loop `for`: Kode ini menggunakan loop `for` untuk mengulang `n` kali.
+    •Generate Bilangan Acak: Dalam setiap iterasi loop, kode ini memanggil fungsi `random()` dari modul `random` untuk menghasilkan bilangan acak antara 0 dan 1. Kemudian, kode ini mengalikan bilangan acak dengan 0.5 untuk memastikan bilangan acak berada di antara 0 dan 0.5.
+    •Cetak Hasil: Kode ini mencetak hasil bilangan acak yang dihasilkan ke layar, disertai dengan nomor urutnya.
+    •Cetak Pesan "Selesai": Setelah loop `for` selesai, kode ini mencetak pesan "Selesai" untuk mengindikasikan bahwa program telah selesai mengeksekusi.
 
 # Input
 ![IMG_20241104_143058](https://github.com/user-attachments/assets/5fcda2e7-f710-43ac-8b91-3fa766a0d6aa)
