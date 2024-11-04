@@ -28,3 +28,6 @@ Fungsi random()
     Fungsi random() termasuk di modul random dan perlu diimport sebelum digunakan.
 
 Contoh:     
+![IMG_20241104_144321](https://github.com/user-attachments/assets/7f5a70ec-9c3a-470f-afa5-b2985af2a084)
+
+Program di atas akan mencetak bilangan random antara 0 dan 1.
